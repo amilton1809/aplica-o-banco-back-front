@@ -5,6 +5,16 @@ body {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    table {
+        width: 100%;
+    }
+}
+
+
 h1 {
     color: #333;
 }
